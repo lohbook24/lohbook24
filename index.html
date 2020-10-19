@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="N">
+    <meta name="description" content="LohBook24 - crutch for step">
+    <link href="mystyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>LohBook24 - crutch for step</title>
+</head>
+
+<body>
+
+
+    <div class="no_ads_div">
+        <!-- Хедер. Три блока в ряд. Линия - Надпись - Линия. -->
+        <header class="headers">
+            <div class="line"></div>
+                <div>
+                    <p class="header_name">LohBook24</p>
+                </div>
+            <div class="line"></div>
+        </header>
+
+
+
+
+        <div class="tabs">
+            <ul>
+                <li>
+                    <input type="radio" name="tabs-0" checked="checked" id="tabs-0-0" />
+                    <label for="tabs-0-0">Students</label>
+
+                    <div>
+                        <!-- Основной блок. Содержит три основных дочерних подблока ввода, вывода и инструкции -->
+                        <div class="main_part">
+                    
+                            <!-- Основной подблок вывода. Состоит из надписи и блока контента -->
+                            <div>
+                                <!-- Блок надписи -->
+                                <div class="headers">
+                                    <div class="small_line1"></div>
+                                        <div>
+                                            <p class="input_name">Input field</p>
+                                        </div>
+                                    <div class="small_line1"></div>
+                                </div>
+                                <!-- Блок контента -->
+                                <div class="list">
+                                    <div class="in_text">
+                                        <textarea class="inta" name="Name field" autofocus  rows="12" placeholder="Вставь в меня свои данные."></textarea>
+                                    </div>
+                                    <div class="button_area">
+                                        <button class="in_button"><img src="images/acorn.png" width="84" height="89" alt="Кнопка с желудем"></button>
+                                        <div class="text_near_butt">
+                                            <p>Если всё готово, жми <span class="red_text">желудь</span> для формирования отчета.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- Основной подблок вывода. Содержит надпись и блок контента -->
+                            <div>
+                                <!-- Блок надписи -->
+                                <div class="headers">
+                                    <div class="small_line1"></div>
+                                        <div>
+                                            <p class="input_name">Output field</p>
+                                        </div>
+                                    <div class="small_line1"></div>
+                                </div>
+                                <!-- Блок контента -->
+                                <div class="list">
+                                    <div class="out_text">
+                                        <div class="headline"><strong>Отчет контроля посещаемости.</strong></div>
+                                        <div class="groupp"     contenteditable="true">Группа: </div>
+                                        <div class="subj"       contenteditable="true">Предмет: </div>
+                                        <div class="theme"      contenteditable="true">Тема урока: </div>
+                                        <div class ="missing"   contenteditable="true">Отсутствующие: </div>
+                    
+                                        <div class ="critical_debtors"></div>
+                                        <div class ="permission"></div>
+                                        
+                                        <div class ="my_link_div"></div>
+                                    </div>
+                    
+                    
+                                    <div class="all_chk_box_div">
+                                        <div class="chk_box_area">
+                                            <input type="checkbox" class="chk_box_item" id="chkbox_critical_debtors" checked>
+                                            <label for="chkbox_critical_debtors">Критические <span class="red_text">должники</span>.</label>
+                                        </div>
+                    
+                                        <div class="chk_box_area">
+                                            <input type="checkbox" class="chk_box_item" id="chkbox_permission" checked>
+                                            <label for="chkbox_permission">Допуск с <span class="red_text">разрешения</span> бухгалтерии.</label>
+                                        </div>
+                    
+                                        <div class="chk_box_area">
+                                            <input type="checkbox" class="chk_box_item" id="chkbox_link">
+                                            <label for="chkbox_link">Поделиться <span class="red_text">ссылкой</span>.</label>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="button_area button_area_out">
+                                        <button class="out_button"><img src="images/acorn.png" width="84" height="89" alt="Кнопка с желудем"></button>
+                                        <div class="text_near_butt">
+                                            <p><span class="edit_span">Отредактировав материал</span>, нажимай на <span class="red_text">желудь</span>. Всё скопируется в буфер обмена.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- Основной подблок инструкции. Состоит из надписи и блока контента из трех вертикальных блоков -->
+                            <div>
+                                <!-- Блок надписи -->
+                                <div class="headers">
+                                    <div class="small_line1"></div>
+                                        <div>
+                                            <p class="input_name">Instruction</p>
+                                        </div>
+                                    <div class="small_line1"></div>
+                                </div>
+                                <!-- Блок инструкции -->
+                                <div class="instruction">
+                                    <!-- Первый блок -->
+                                    <div class="instruction_part">
+                                        <div class="number_div">
+                                            <p class="number">1.</p>
+                                        </div>
+                                        <div>
+                                            <p>Отметьте студентов на странице LogBook. Возле отсутствующих обязательно укажите причину. Если причина неизвестна, то так и запишите.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Второй блок -->
+                                    <div class="instruction_part">
+                                        <div class="number_div">
+                                            <p class="number">2.</p>
+                                        </div>
+                                        <div>
+                                            <p>Скопируйте всё содержимое страницы комбинацией Ctrl+A и вставьте в поле ввода. Сформируйте отчет.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Третий блок -->
+                                    <div class="instruction_part">
+                                        <div class="number_div">
+                                            <p class="number">3.</p>
+                                        </div>
+                                        <div>
+                                            <p>В сформированном отчете в поле вывода можно произвести желаемые правки. Нажмите кнопку, чтобы скопировать итоговый отчет в буфер обмена.</p>
+                                        </div>
+                                    </div>       
+                                </div>
+                            </div>  
+                    
+                        </div>
+                        <div class="line_big"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="tabs-0" id="tabs-0-1" />
+                    <label for="tabs-0-1">Homework statistics</label>
+
+                    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div>
+                            <!-- Основной блок. Содержит три основных дочерних подблока ввода, вывода и инструкции -->
+                            <div class="main_part">
+                        
+
+                                <!-- Основной подблок инструкции. Состоит из надписи и блока контента из трех вертикальных блоков -->
+                                <div>
+                                    <!-- Блок надписи -->
+                                    <div class="headers">
+                                        <div class="small_line1"></div>
+                                            <div>
+                                                <p class="input_name">Instruction</p>
+                                            </div>
+                                        <div class="small_line1"></div>
+                                    </div>
+                                    <!-- Блок инструкции -->
+                                    <div class="instruction">
+
+
+                                        <!-- Первый блок -->
+                                        <div class="list hw_stat_list">
+                                            <div><span class="red_text">ВНИМАНИЕ!</span> Данный функционал находится на стадии бета-версии. Рекомендуется перепроверять полученный результат.</div>
+                                            <div class="number_div">
+                                                <p class="number">1.</p>
+                                            </div>
+                                            <div>
+                                                <p>Откройте страницу LogBook "Домашние задания от преподавателя". Скопируйте содержимое всей страницы комбинацией Ctrl+A и вставьте в поле ввода. Таблица сформируется автоматически. Красным отмечены студенты, чей процент выполненных работ не достиг 80. Также указано сколько необходимо выполнить для достижения 80%.</p>
+                                            </div>
+
+                                            <div class="number_div">
+                                                <p class="number">2.</p>
+                                            </div>
+                                            <div>
+                                                <p>Если страниц с домашними заданиями несколько - повторите операцию для следующей страницы и добавьте в новое поле ввода (оно появится после использования предыдущего).</p>
+                                            </div>
+
+                                            <div class="number_div">
+                                                <p class="number">3.</p>
+                                            </div>
+                                            <div>
+                                                <p>Если желаете отменить отдельный ввод данных - нажмите на крестик возле соответствующего поля ввода.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>  
+
+                                <!-- Основной подблок вывода. Состоит из надписи и блока контента -->
+                                <div>
+                                    <!-- Блок надписи -->
+                                    <div class="headers">
+                                        <div class="small_line1"></div>
+                                            <div>
+                                                <p class="input_name">Input field</p>
+                                            </div>
+                                        <div class="small_line1"></div>
+                                    </div>
+                                    <!-- Блок контента -->
+                                    <div class="hw_list hw_stat_input_block">
+                                        <div class="in_text_hw_stat">
+                                            <textarea class="hw_stat_input_textarea" name="Name field" autofocus rows="3" placeholder="Место для ваших данных."></textarea>
+                                            <button class="hw_stat_cancel disabled" disabled><img src="images/cancel_disabled.png" width="40" height="47" alt="Cancel"></button>
+                                        </div>
+                                        <!-- <div class="button_area">
+                                            <button class="hw_stat_input_button"><img src="images/acorn.png" width="84" height="89" alt="Кнопка с желудем"></button>
+                                            <div class="text_near_butt">
+                                                <p>Если всё готово, жми <span class="red_text">желудь</span> для формирования таблицы.</p>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                        
+    
+                        
+                                
+                        
+                            </div>
+                            <div class="line_big"></div>
+
+                            <div class="main_part">
+
+                                <div>
+                                    <!-- Блок надписи -->
+                                    <div class="headers">
+                                        <div class="small_line1"></div>
+                                            <div>
+                                                <p class="input_name">Table</p>
+                                            </div>
+                                        <div class="small_line1"></div>
+                                    </div>
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">ФИО студента</th>
+                                                <th scope="col">Всего ДЗ</th>
+                                                <th scope="col">Сделанных</th>
+                                                <th scope="col">% сделанных</th>
+                                                <th scope="col">Средний балл</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody class="hw_stat_table">
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+
+</html>
