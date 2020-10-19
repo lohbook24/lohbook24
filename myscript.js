@@ -158,7 +158,7 @@ function copy_text(){
 }
 
 function share_the_link(){                                      //Функиця проверки состояния чекбокса и вывода/удаления ссылки.
-    let my_link = "<br><div>Отчет сформирован с помощью сервиса: http://bit.ly/logb01</div>",
+    let my_link = "<br><div>Отчет сформирован с помощью сервиса: http://bit.ly/lohb24</div>",
     chk_share_link = document.querySelector("#chkbox_link"),
     my_link_div = document.querySelector(".my_link_div");
 
